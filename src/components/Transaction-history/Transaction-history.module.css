@@ -1,0 +1,24 @@
+.table {
+  font-size: 18px;
+  width: 95%;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-bottom: 100px;
+}
+.thead {
+  background-color: #2fd4fd;
+}
+.trThead {
+  height: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.trTbody {
+  height: 50px;
+}
+
+.trTbody:nth-child(even) {
+  background-color: #e6ebeb;
+}

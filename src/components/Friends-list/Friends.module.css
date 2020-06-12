@@ -1,0 +1,40 @@
+.list {
+  padding: 0;
+  margin: 0 auto;
+  width: 400px;
+  height: max-content;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 20px;
+  grid-row-gap: 15px;
+}
+.listItem {
+  border-radius: 5px;
+  height: 100px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-column-gap: 15px;
+  align-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  padding-left: 25px;
+}
+.imgAvatar {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+}
+.nameFriend {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
